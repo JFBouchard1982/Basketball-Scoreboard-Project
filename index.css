@@ -1,0 +1,83 @@
+@font-face {
+    src: url("panelfont.ttf");
+    font-family: panelfont;
+}
+#background {
+    background-image: url("images/hoop.jpg");
+    background-color: #1B244A;
+    margin: auto auto;
+    height: 444px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body {
+    background-color: #000022;
+    margin: auto auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+#background:hover {
+    margin: auto auto;
+    background-image: url("images/mj.jpg");
+    height: 444px;
+    width: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h3 {
+    color: #b3142a;
+    text-shadow: 2px 2px 2px black  
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #b3142a;
+    font-size: 25px;
+}
+#homesq {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color:black;
+    font-family: panelfont;
+    font-size: 50px;
+    border: dotted 1px #9AABD8;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+#guestsq {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color:black;
+    font-family: panelfont;
+    font-size: 50px;
+    border: dotted 1px #9AABD8;
+    border-radius: 5px;
+    padding: 20px;
+}
+.incrementbtns {
+    width: 29px;
+    height: 29px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #b3142a;
+    border: dotted 1px #9AABD8;
+    background-color: black;
+    border-radius: 5px;
+    text-shadow: 1px 2px 0px black 
+}
+.newgame {
+    margin-top: 60px;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: #b3142a;
+    border: dotted 1px #9AABD8;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;  
+}
